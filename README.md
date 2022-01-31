@@ -13,8 +13,13 @@ Creating a simple application with Flask, Postman and Docker
 
 1. Imported bank data 
 2. Created a simple classification model
-3. Created a Flask application
-4. 
+3. Stored the model in a pickle (.pkl file)
+4. Created a Flask application
+5. Created routes for Welcome page, Prediction using GET request, Prediction using POST request
+6. Captured parameters from the URL using request.args.get (variance=2&cskewness=8...)
+7. Captured parameters from a file using request.files.get("filename")
+8. Used Postman to run API using file input. Note that in teh POST methid you can specify a file for the input.
+9. ![Using postman for flask API](https://github.com/sjtalkar/DockerContainerization/blob/main/UsePostmantosendTestFile.png)
 
 
 
