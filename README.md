@@ -28,6 +28,8 @@ Creating a simple application with Flask, Postman and Docker
 https://hub.docker.com/r/continuumio/anaconda3
 
 
+#### docker build -t bank_api .
+
 ### Initial set of commands
 
 - FROM   
