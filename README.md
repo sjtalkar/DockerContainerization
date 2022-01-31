@@ -18,51 +18,67 @@ Creating a simple application with Flask, Postman and Docker
 5. Created routes for Welcome page, Prediction using GET request, Prediction using POST request
 6. Captured parameters from the URL using request.args.get (variance=2&cskewness=8...)
 7. Captured parameters from a file using request.files.get("filename")
-8. Used Postman to run API using file input. Note that in teh POST methid you can specify a file for the input.
+8. Used Postman to run API using file input. Note that in the POST method you can specify a file for the input.
 9. ![Using postman for flask API](https://github.com/sjtalkar/DockerContainerization/blob/main/UsePostmantosendTestFile.png)
 10. Use https://github.com/flasgger/flasgger
 
 
 
-To create a new container from image
+### Initial set of commands
+
+- FROM   
+- COPY    (host system file directory)
+- EXPOSE  (port)
+- WORKDIR (file directory)
+- RUN      (pip install -r requirements.txt)
+- CMD
+
+
+#### Creating requirements.txt
+pip install pipreqs
+
+pipreqs  --print  --encoding=utf-8 ..\<name of folder containing project>
+
+
+#### To create a new container from image
 
 docker run
 
 
-To start an existing container docket start
+#### To start an existing container docket start
 
 
-For list of containers started and stopped
+#### For list of containers started and stopped
 doscker ps -a
 
-look at logs
+#### look at logs
 docker logs (id of container) [use docker ps to get id and/or name]
 
-Create a container with custom name
+#### Create a container with custom name
 docker run -d -p6001:6379 --name redis-older   redis:4.0
 
 In the above specify a host machine port (6001) and the port typically taken by redis 6379 The bive is creating a redis 4.0 version container
 
-Get Docker bash inside the container
+#### Get Docker bash inside the container
 
 docker exec -it "dockerid"  /bin/bash
 
-To exit out of the container
+#### To exit out of the container
 exit
 
 
-Create a docker network
+#### Create a docker network
 
 docker network create mongo-network
 
 
 
-View available docker network
+#### View available docker network
 
 docker network ls
 
 
-USE a docker-compose.yaml file
+#### USE a docker-compose.yaml file
 
 docker run -d\
 --name   mongodb\
@@ -76,12 +92,12 @@ docker run -d\
 mongo
 
 
-Start a docker from yaml file
+#### Start a docker from yaml file
 
 docker-compose -f momgo.yaml
 
 
-The network is created automatically by docker-compose
+#### The network is created automatically by docker-compose
 
 
 https://aws.amazon.com/blogs/opensource/why-use-docker-containers-for-machine-learning-development/
