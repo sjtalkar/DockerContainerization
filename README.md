@@ -20,6 +20,7 @@ Creating a simple application with Flask, Postman and Docker
 7. Captured parameters from a file using request.files.get("filename")
 8. Used Postman to run API using file input. Note that in teh POST methid you can specify a file for the input.
 9. ![Using postman for flask API](https://github.com/sjtalkar/DockerContainerization/blob/main/UsePostmantosendTestFile.png)
+10. Use https://github.com/flasgger/flasgger
 
 
 
