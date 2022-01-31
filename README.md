@@ -24,6 +24,10 @@ Creating a simple application with Flask, Postman and Docker
 
 
 
+### You can start with
+https://hub.docker.com/r/continuumio/anaconda3
+
+
 ### Initial set of commands
 
 - FROM   
