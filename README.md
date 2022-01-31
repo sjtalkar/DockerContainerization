@@ -29,6 +29,7 @@ https://hub.docker.com/r/continuumio/anaconda3
 
 
 #### docker build -t bank_api .
+#### docker run -p 8000:8000 bank_api
 
 ### Initial set of commands
 
