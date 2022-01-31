@@ -9,6 +9,14 @@ Docker Containers:
 - Build Once, Deploy everywhere
 
 
+Creating a simple application with Flask, Postman and Docker
+
+1. Imported bank data 
+2. Created a simple classification model
+3. Created a Flask application
+4. 
+
+
 
 To create a new container from image
 
