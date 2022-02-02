@@ -16,12 +16,24 @@
   #### CONTAINERIZARION
   ![VMANDDOCKER](https://github.com/sjtalkar/DockerContainerization/blob/main/VMSANDDOCKER.png)
   
+   - Each VM will need an OS, libraries and binaries, and consume more hardware resources such as processor, memory and disk space even if the micro-service is not really running. 
+   - WHERE AS If a Docker container is not running, the remaining resources become shared resources and accessible to other containers. You do not need to add an OS in a container. 
+  
   #### TRANSPORABILITY
   - Docker allows to easily reproduce the working environment that is used to train and run the machine learning model anywhere.
   - Docker allows packaging the code and dependencies into containers that can be ported to different servers even if it’s a different hardware or operating system.
   - A training model can be developed on a local machine and be easily ported to external clusters with additional resources such as GPUs, more memory or powerful CPUs.
   
   
+  [Part 2](https://xaviervasques.medium.com/quick-install-and-first-use-of-docker-327e88ef88c7) : 
+  ####  TERMINOLOGY
+  -  Dockerfile :  It’s a list of commands that Docker Engine will run. To create a Dockerfile, just open a file named Dockerfile in your working environment. 
+  -  Docker Images:Docker images contain all the tools, libraries, dependencies, executable application source code necessary to run the application as a container. 
+      -  We can build the Docker image from common repositories or from scratch using a Dockerfile which is a text file containing instructions on how to build Docker container image. 
+  -  Docker Hub: Docker Hub is the public repository of Docker images.
+  -  Docker Containers : Docker containers are running instances of Docker images.
+  
+  [Part 3](https://towardsdatascience.com/build-and-run-a-docker-container-for-your-machine-learning-model-60209c2d7a7f)
 
 Creating a simple application with Flask, Postman and Docker
 
