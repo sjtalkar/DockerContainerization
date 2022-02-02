@@ -11,6 +11,12 @@
 
 ### Article for reference
   [Part 1](https://towardsdatascience.com/why-using-docker-for-machine-learning-74c927ceb6c4)
+  
+  
+  #### CONTAINERIZARION
+  ![VMANDDOCKER](https://github.com/sjtalkar/DockerContainerization/blob/main/VMSANDDOCKER.png)
+  
+  #### TRANSPORABILITY
   - Docker allows to easily reproduce the working environment that is used to train and run the machine learning model anywhere.
   - Docker allows packaging the code and dependencies into containers that can be ported to different servers even if it’s a different hardware or operating system.
   - A training model can be developed on a local machine and be easily ported to external clusters with additional resources such as GPUs, more memory or powerful CPUs.
