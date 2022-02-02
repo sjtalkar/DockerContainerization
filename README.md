@@ -9,7 +9,10 @@
 - Build Once, Deploy everywhere
 
 
-### Article for reference
+### Article(s) for reference
+  [From AnalyticsVidhya](https://www.analyticsvidhya.com/blog/2021/06/a-hands-on-guide-to-containerized-your-machine-learning-workflow-with-docker/)
+
+
   [Part 1](https://towardsdatascience.com/why-using-docker-for-machine-learning-74c927ceb6c4)
   
   
